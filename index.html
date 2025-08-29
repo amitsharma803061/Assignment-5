@@ -8,21 +8,25 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <!--tailwind cdn-->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
-        <nav class="border-2 border-red-500 rounded-2xl h-[10vh]">
-            <nav class="flex p-20">  
+        <div class="border-2 border-red-500 rounded-2xl h-[10vh] flex justify-between">
+            <div class="flex p-20">  
                 <img src="assets/logo.png" alt="">
                 <div class="p-8 text-7xl text-[#067C57] font-bold">
                     <h2 class="">Emergency</h2>
                     <h2>Service</h2>
                 </div>
-            </nav>
-            <nav>
-            
-            </nav>
-        </nav>
+            </div>
+            <div class="flex p-30 gap-3">
+                <button class="btn  h-[130px] w-[500px] rounded-4xl text-8xl bg-[#D4EECF] ">0  <img src="assets/heart.png" alt=""></button><br>
+                <button class="btn  h-[130px] w-[500px] rounded-4xl text-8xl bg-[#D4EECF]">100 <img src="assets/coin.png" alt=""></button><br>
+                <button class="btn btn-soft rounded-4xl h-[130px] w-[500px] p-4 text-6xl text-[#FEFEFE] bg-[#19AA51]">2 Copy</button><br>
+            </div>
+        </div>
 
 
         <!--nav 2-->
@@ -36,11 +40,24 @@
 
     <!--main-->
     <main>
-        <section>
-            <div class="border-2 border-red-500 rounded-2xl">
-                <img src="assets/emergency.png" alt="">
-
+        <section  class=" rounded-2xl grid grid-cols-3 w-[5200px] h-[90vh] p-20 bg-[#E0F4E7]">
+            <div class="rounded-3xl w-[1600px] h-[25vh] p-10 bg-[#FFFFFF]">
+                <div class="flex justify-between ">
+                    <img src="assets/emergency.png" class="rounded-2xl bg-[#FFE3E2] w-[150px] ">
+                    <p class="w-[200px] text-9xl"><i class="fa-regular fa-heart"></i></p>
+                </div>
+                <h1 class="text-8xl font-bold p-4">National Emergency Number</h1>
+                <p class="text-6xl font-semibold p-4">National Emergency</p><br>
+                <h1 class="text-9xl font-bold p-4">999</h1>
+                <p class="text-6xl font-semibold p-4">All</p>
+                <div class="p-10 ">
+                    <button class="btn btn-soft rounded-4xl h-[150px] w-[700px] p-4 text-5xl"><i class="fa-regular fa-copy"></i> Copy</button>
+                    <button class="btn btn-soft rounded-4xl h-[150px] w-[700px] p-4 text-5xl bg-[#19AA51] text-[#FEFEFE]"><i class="fa-solid fa-phone"></i>Call</button>
+                </div>
             </div>
+
+
+            
         </section>
     </main>
 </body>
