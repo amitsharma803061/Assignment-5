@@ -23,7 +23,7 @@
             </div>
             <div class="flex p-30 gap-3">
                 <button class="btn  h-[130px] w-[500px] rounded-4xl text-7xl bg-[#D4EECF] "><span>0</span>       <img src="assets/heart.png" alt=""></button><br>
-                <button class="btn  h-[130px] w-[500px] rounded-4xl text-7xl bg-[#D4EECF]"><span>100</span>    <img src="assets/coin.png" alt=""></button><br>
+                <button id="total-coin" class="btn  h-[130px] w-[500px] rounded-4xl text-7xl bg-[#D4EECF]"><span>100</span>    <img src="assets/coin.png" alt=""></button><br>
                 <button class="btn btn-soft rounded-4xl h-[130px] w-[500px] p-4 text-6xl text-[#FEFEFE] bg-[#19AA51]">2 Copy</button><br>
             </div>
         </div>
@@ -39,8 +39,8 @@
     </header>
 
     <!--main-->
-    <main class="flex justify-between w-[7000px] h-[90vh] p-35 bg-[#E0F4E7]">
-        <section  class=" rounded-2xl grid grid-cols-3 gap-30">
+    <main class="flex justify-between w-[7500px] h-[100vh] p-35 bg-[#E0F4E7]">
+        <section  class=" rounded-2xl grid grid-cols-3 gap-40">
             <div class="rounded-3xl w-[1600px] h-[25vh] p-10 bg-[#FFFFFF]">
                 <div class="flex justify-between ">
                     <img src="assets/emergency.png" class="rounded-2xl bg-[#FFE3E2] w-[150px] ">
@@ -68,7 +68,7 @@
                 <p class="text-6xl font-semibold p-4">Police</p>
                 <div class="p-10 ">
                     <button class="btn btn-soft rounded-4xl h-[150px] w-[700px] p-4 text-5xl"><i class="fa-regular fa-copy"></i> Copy</button>
-                    <button class="btn btn-soft rounded-4xl h-[150px] w-[700px] p-4 text-5xl bg-[#19AA51] text-[#FEFEFE]"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button id="Police-Help" class="btn btn-soft rounded-4xl h-[150px] w-[700px] p-4 text-5xl bg-[#19AA51] text-[#FEFEFE]"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
 
@@ -85,7 +85,7 @@
                 <p class="text-6xl font-semibold p-4">Fire</p>
                 <div class="p-10 ">
                     <button class="btn btn-soft rounded-4xl h-[150px] w-[700px] p-4 text-5xl"><i class="fa-regular fa-copy"></i> Copy</button>
-                    <button class="btn btn-soft rounded-4xl h-[150px] w-[700px] p-4 text-5xl bg-[#19AA51] text-[#FEFEFE]"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button id="fire-service" class="btn btn-soft rounded-4xl h-[150px] w-[700px] p-4 text-5xl bg-[#19AA51] text-[#FEFEFE]"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
 
@@ -101,7 +101,7 @@
                 <p class="text-6xl  p-4">Health</p>
                 <div class="p-10 ">
                     <button class="btn btn-soft rounded-4xl h-[150px] w-[700px] p-4 text-5xl"><i class="fa-regular fa-copy"></i> Copy</button>
-                    <button class="btn btn-soft rounded-4xl h-[150px] w-[700px] p-4 text-5xl bg-[#19AA51] text-[#FEFEFE]"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button id="Ambulance-Service" class="btn btn-soft rounded-4xl h-[150px] w-[700px] p-4 text-5xl bg-[#19AA51] text-[#FEFEFE]"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
 
@@ -119,7 +119,7 @@
                 <p class="text-6xl font-semibold p-4">Help</p>
                 <div class="p-10 ">
                     <button class="btn btn-soft rounded-4xl h-[150px] w-[700px] p-4 text-5xl"><i class="fa-regular fa-copy"></i> Copy</button>
-                    <button class="btn btn-soft rounded-4xl h-[150px] w-[700px] p-4 text-5xl bg-[#19AA51] text-[#FEFEFE]"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button id="Women-Helpline" class="btn btn-soft rounded-4xl h-[150px] w-[700px] p-4 text-5xl bg-[#19AA51] text-[#FEFEFE]"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
 
@@ -137,7 +137,7 @@
                 <p class="text-6xl font-semibold p-4">Govt.</p>
                 <div class="p-10 ">
                     <button class="btn btn-soft rounded-4xl h-[150px] w-[700px] p-4 text-5xl"><i class="fa-regular fa-copy"></i> Copy</button>
-                    <button class="btn btn-soft rounded-4xl h-[150px] w-[700px] p-4 text-5xl bg-[#19AA51] text-[#FEFEFE]"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button id="Anti-Helpline" class="btn btn-soft rounded-4xl h-[150px] w-[700px] p-4 text-5xl bg-[#19AA51] text-[#FEFEFE]"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
 
@@ -154,7 +154,7 @@
                 <p class="text-6xl font-semibold p-4">Electricity</p>
                 <div class="p-10 ">
                     <button class="btn btn-soft rounded-4xl h-[150px] w-[700px] p-4 text-5xl"><i class="fa-regular fa-copy"></i> Copy</button>
-                    <button class="btn btn-soft rounded-4xl h-[150px] w-[700px] p-4 text-5xl bg-[#19AA51] text-[#FEFEFE]"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button id="Electricity-helpline" class="btn btn-soft rounded-4xl h-[150px] w-[700px] p-4 text-5xl bg-[#19AA51] text-[#FEFEFE]"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
 
@@ -172,7 +172,7 @@
                 <p class="text-6xl font-semibold p-4">NGO</p>
                 <div class="p-10 ">
                     <button class="btn btn-soft rounded-4xl h-[150px] w-[700px] p-4 text-5xl"><i class="fa-regular fa-copy"></i> Copy</button>
-                    <button class="btn btn-soft rounded-4xl h-[150px] w-[700px] p-4 text-5xl bg-[#19AA51] text-[#FEFEFE]"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button id="brac-helpline" class="btn btn-soft rounded-4xl h-[150px] w-[700px] p-4 text-5xl bg-[#19AA51] text-[#FEFEFE]"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
 
@@ -190,100 +190,103 @@
                 <p class="text-6xl font-semibold p-4">Travel</p>
                 <div class="p-10 ">
                     <button class="btn btn-soft rounded-4xl h-[150px] w-[700px] p-4 text-5xl"><i class="fa-regular fa-copy"></i> Copy</button>
-                    <button class="btn btn-soft rounded-4xl h-[150px] w-[700px] p-4 text-5xl bg-[#19AA51] text-[#FEFEFE]"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button id="Railway-helpline" class="btn btn-soft rounded-4xl h-[150px] w-[700px] p-4 text-5xl bg-[#19AA51] text-[#FEFEFE]"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
         </section>
             <!---------new section -->
-        <section class=" bg-[#FFFFFF] h-[82vh] w-[40vh] gap-10">
+        <section class=" bg-[#FFFFFF] h-[90vh] w-[50vh] gap-10">
             <div class="flex justify-between  p-20">
                 <h1 class="text-8xl"><i class="fa-regular fa-clock p-6"></i>   Call History</h1>
                 <button class="btn w-[400px] h-[200px] text-6xl rounded-full text-[#FEFEFE] bg-[#19AA51]">Clear</button>
             </div><br>
             <br>
-            <div class="flex justify-between h-[10vh] w-[40vh] bg-[#EAEAEA] rounded-2xl p-16"  style="display: none;">
+            <div id="Service-number" class="flex justify-between h-[10vh] w-[50vh] bg-[#EAEAEA] rounded-2xl p-16"  style="display: none;">
                 <div class="">
                     <h1 class="text-7xl font-semibold p-5">Fire Service Number</h1>
                     <p class="text-6xl p-5">999</p>
                 </div>
-                <h1 class="text-6xl p-18">11:36:58 AM</h1>
+                <h1 class="text-6xl">11:36:58AM</h1>
             </div><br>
             <br>
             
-            <div id="Emergency-number" class="flex justify-between h-[10vh] w-[40vh] bg-[#EAEAEA] rounded-2xl p-16" style="display: none;">
+            <div id="Emergency-number" class="flex justify-between h-[10vh] w-[50vh] bg-[#EAEAEA] rounded-4xl p-16" style="display: none;">
                 <div class="">
                     <h1 class="text-7xl font-semibold p-5">National Emergency Number</h1>
                     <p class="text-6xl p-5">999</p>
                 </div>
-                <h1 class="text-6xl p-18">11:36:58 AM</h1>
+                <h1 class="text-6xl">11:36:58 AM</h1>
             </div><br>
             <br>
 
-            <div class="flex justify-between h-[10vh] w-[40vh] bg-[#EAEAEA] rounded-2xl p-16" style="display: none;">
+            <div id="helpline-number" class="flex justify-between h-[10vh] w-[50vh] bg-[#EAEAEA] rounded-2xl p-16" style="display: none;">
                 <div class="">
-                    <h1 class="text-7xl font-semibold p-5">Police Helpline Number</h1>
-                    <p class="text-6xl p-5">999</p>
+                    <h1 class="text-7xl font-semibold">Police Helpline Number</h1>
+                    <p class="text-6xl p-6">999</p>
                 </div>
-                <h1 class="text-6xl p-18">11:36:58 AM</h1>
+                <h1 class="text-6xl">11:36:58 AM</h1>
             </div><br>
             <br>
 
-            <div class="flex justify-between h-[10vh] w-[40vh] bg-[#EAEAEA] rounded-2xl p-16" style="display: none;">
+            <div id="Ambulance" class="flex justify-between h-[10vh] w-[50vh] bg-[#EAEAEA] rounded-4xl p-15" style="display: none;">
                 <div class="">
-                    <h1 class="text-7xl font-semibold p-5">Ambulance Service</h1>
-                    <p class="text-6xl p-5">1994-999999</p>
+                    <h1 class="text-7xl font-semibold">Ambulance Service</h1>
+                    <p class="text-6xl p-6">1994-999999</p>
                 </div>
-                <h1 class="text-6xl p-18">11:36:58 AM</h1>
+                <h1 class="text-6xl">11:36:58 AM</h1>
             </div><br>
             <br>
 
-            <div class="flex justify-between h-[10vh] w-[40vh] bg-[#EAEAEA] rounded-2xl p-16" style="display: none;">
+            <div id="Women" class="flex justify-between h-[10vh] w-[50vh] bg-[#EAEAEA] rounded-2xl p-16" style="display: none;">
                 <div class="">
                     <h1 class="text-7xl font-semibold p-5">Women & Child Helpline</h1>
                     <p class="text-6xl p-5">109</p>
                 </div>
-                <h1 class="text-6xl p-18">11:36:58 AM</h1>
+                <h1 class="text-6xl">11:36:58 AM</h1>
             </div><br>
             <br>
 
-            <div class="flex justify-between h-[10vh] w-[40vh] bg-[#EAEAEA] rounded-2xl p-16" style="display: none;">
+            <div id="Electricity" class="flex justify-between h-[10vh] w-[50vh] bg-[#EAEAEA] rounded-2xl p-16" style="display: none;">
                 <div class="">
                     <h1 class="text-7xl font-semibold p-5">Electricity Helpline</h1>
                     <p class="text-6xl p-5">16216</p>
                 </div>
-                <h1 class="text-6xl p-18">11:36:58 AM</h1>
+                <h1 class="text-6xl">11:36:58 AM</h1>
             </div><br>
             <br>
 
-            <div class="flex justify-between h-[10vh] w-[40vh] bg-[#EAEAEA] rounded-2xl p-16" style="display: none;">
+            <div id="brac" class="flex justify-between h-[10vh] w-[50vh] bg-[#EAEAEA] rounded-2xl p-16" style="display: none;">
                 <div class="">
                     <h1 class="text-7xl font-semibold p-5">Brac Helpline</h1>
                     <p class="text-6xl p-5">16445</p>
                 </div>
-                <h1 class="text-6xl p-18">11:36:58 AM</h1>
+                <h1 class="text-6xl">11:36:58 AM</h1>
             </div><br>
             <br>
 
 
-            <div class="flex justify-between h-[10vh] w-[40vh] bg-[#EAEAEA] rounded-2xl p-16"  style="display: none;">
+            <div id="Railway" class="flex justify-between h-[10vh] w-[50vh] bg-[#EAEAEA] rounded-2xl p-16"  style="display: none;">
                 <div class="">
                     <h1 class="text-7xl font-semibold p-5">Bangladesh Railway Helpline</h1>
                     <p class="text-6xl p-5">163</p>
                 </div>
-                <h1 class="text-6xl p-18">11:36:58AM</h1>
+                <h1 class="text-6xl">11:36:58AM</h1>
             </div><br>
             <br>
 
-            <div class="flex justify-between h-[10vh] w-[40vh] bg-[#EAEAEA] rounded-2xl p-16"  style="display: none;">
+            <div id="Anti" class="flex justify-between h-[10vh] w-[50vh] bg-[#EAEAEA] rounded-2xl p-16"  style="display: none;">
                 <div class="">
                     <h1 class="text-7xl font-semibold p-5">Anti-Corruption Helpline</h1>
                     <p class="text-6xl p-5">106</p>
                 </div>
-                <h1 class="text-6xl p-18">11:36:58 AM</h1>
+                <h1 class="text-6xl">11:36:58 AM</h1>
             </div><br>
             <br>
 
         </section>
     </main>
+
+
+    <script src="js/script.js"></script>
 </body>
 </html>
